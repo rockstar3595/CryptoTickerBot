@@ -15,10 +15,8 @@ client.on('ready', () => {
             request.get(url, (error, response, body) => {
 			var json = JSON.parse(body);
             
-            
       message.reply('Coin: ${json[0]["id"]} \n Price: ${json[0]["price_usd"]}');
-      });
-                  
+			});
       }
       });
       
