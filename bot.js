@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 const url = "https://api.coinmarketcap.com/v1/ticker/bitcoin/";
 
-const request = require('request');
+const request = require("request");
 
 client.on('ready', () => {
       console.log('I am ready!');
