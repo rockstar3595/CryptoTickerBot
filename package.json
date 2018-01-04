@@ -1,15 +1,13 @@
 {
-  "name": "greeter-bot",
-  "version": "1.0.0",
-  "description": "My own Discord bot",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-},
-  "author": "Andrew Lunsford",
+    "start": "node bot.js"
+  },
   "dependencies": {
-    "discord.io": "github:woor/discord.io#gateway_v6",
-    "winston": "^2.4.0"
-  }
-}
+    "discord.js": "11.1.0"
+    }
+    }
+    
